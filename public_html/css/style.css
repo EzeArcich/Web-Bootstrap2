@@ -1,0 +1,945 @@
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(56,75,84,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav{
+  background-color: none ;
+}
+
+nav {
+  background-color: none;
+}
+
+.navtop  .nav-link {
+  padding: 0px 0px 0px 15px;
+  animation: none;
+  color: white;
+}
+
+#inicio {
+  /* -webkit-transform: rotate(-14deg); */
+  /* margin-top: 17px; */
+}
+
+#academia {
+  /* -webkit-transform: rotate(-1deg); */
+  /* margin-top: -4px;
+  padding-left: 30px; */
+}
+
+#nosotros {
+  /* -webkit-transform: rotate(1deg); */
+  /* margin-top: -5px;
+  padding-left: 27px; */
+}
+
+#galeria {
+  /* -webkit-transform: rotate(15deg); */
+  /* margin-top: 13px; */
+}
+
+
+.navtop {
+  border-color:  black;
+  background-color: black;
+  border-style: solid;
+  border-width: 12px;
+  width: 100%;
+  height: 140px;
+  margin: 60px 0px 2px 0px;
+  padding-top: 40px;
+  border-radius: 10px;
+  z-index: 2;
+  box-shadow: inset 0px -5px 0px 0 blue, 
+  inset 0 -12px 0px 0px white,
+  inset 0 -17px 0px 0px red;
+  
+}
+
+#cintita {
+  width: 750px;
+  z-index: -1;
+  position: absolute;
+  padding: 0;
+  margin: 0px 0px 0px 0px;
+  animation: flicker 12s linear infinite;
+}
+
+h1 {
+  font-size: 2cm;
+  color: white;
+  padding-top: 80px;
+  margin-top: 10px;
+}
+
+.neon2 {
+    font-family: 'Birthstone', cursive;
+    margin: 0;
+    left: 180px;
+    margin-bottom: 10px;
+    position: absolute;
+    animation: flicker 15s linear infinite;
+    font-size: 1.5cm;
+    text-shadow: 0 0 5px blue,
+                 0 0 10px blue,
+                 0 0 20px blue,
+                 0 0 30px blue,
+                 0 0 40px blue,
+                 0 0 50px blue,
+                 0 0 60px blue;            
+}
+
+.neon {
+    font-family: 'Birthstone', cursive;
+    margin: 0;
+    left: 40px;
+    position: absolute;
+    margin-top: 10px;
+    z-index: -2;
+    top: 80px;
+    font-size: 4cm;
+    animation: flicker 7s linear infinite;
+    text-shadow: 0 0 5px red,
+                 0 0 10px red,
+                 0 0 20px red,
+                 0 0 30px red,
+                 0 0 40px red,
+                 0 0 50px red,
+                 0 0 60px red,
+                 0 0 80px red,
+                 0 0 90px red,
+                 0 0 100px red;            
+}
+
+/* animación de neon */
+
+.neon > span {
+    animation: flicker 10ms linear;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: step-start;
+    
+
+
+    
+}
+
+.neon > .delay1 {
+    animation-delay: 1s;
+    animation-duration: 1s;    
+}
+
+.neon > .delay2 {
+    animation-delay: 1s;
+    animation-duration: 1s;    
+}
+
+.neon > .delay3 {
+    animation-delay: 1s;
+    animation-duration: 1s;    
+}
+
+@keyframes flicker {
+    from {
+      opacity: 1;
+    }
+  
+    4% {
+      opacity: .9;
+    }
+  
+    6% {
+      opacity: .85;
+    }
+  
+    8% {
+      opacity: .95;
+    }
+  
+    10% {
+      opacity: .90;
+    }
+  
+    11% {
+      opacity: .922;
+    }
+  
+    12% {
+      opacity: .9;
+    }
+  
+    14% {
+      opacity: .95;
+    }
+  
+    16% {
+      opacity: .98;
+    }
+  
+    17% {
+      opacity: .9;
+    }
+  
+    19% {
+      opacity: .93;
+    }
+  
+    20% {
+      opacity: .99;
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    26% {
+      opacity: .94;
+    }
+  
+    28% {
+      opacity: .98;
+    }
+  
+    37% {
+      opacity: .93;
+    }
+  
+    38% {
+      opacity: .5;
+    }
+  
+    39% {
+      opacity: .96;
+    }
+  
+    42% {
+      opacity: 1;
+    }
+  
+    44% {
+      opacity: .97;
+    }
+  
+    46% {
+      opacity: .94;
+    }
+  
+    56% {
+      opacity: .9;
+    }
+  
+    58% {
+      opacity: .9;
+    }
+  
+    60% {
+      opacity: .99;
+    }
+  
+    68% {
+      opacity: 1;
+    }
+  
+    70% {
+      opacity: .9;
+    }
+  
+    72% {
+      opacity: .95;
+    }
+  
+    93% {
+      opacity: .93;
+    }
+  
+    95% {
+      opacity: .95;
+    }
+  
+    97% {
+      opacity: .93;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+/* animación de neon */
+
+.logo > img {
+    padding: 0px;
+    position: absolute;
+    height: 270px;
+    width: 350px;
+    bottom: 690px;
+    left: 1350px;
+    animation: none;
+
+}
+
+
+.row {
+    padding-top: 8rem;
+}
+
+.promo {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: 3rem;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.video {
+
+margin-right: 300px;
+padding-bottom: 0px;
+margin-top: 0px;
+padding-top: 50px;
+
+}
+
+.ratio > video {
+    
+    height: 400px;
+    width: 800px;
+    object-fit: cover;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 0 5px white,
+    0 0 10px white,
+    0 0 20px red,
+    0 0 30px red,
+    0 0 40px red,
+    0 0 50px red;
+                 
+                 
+}
+
+
+h3 {
+    font-size: 2cm;
+  /* background: -webkit-repeating-linear-gradient(-45deg, white , blue , red, white , blue , red, white , blue , red, white, blue, red, white, blue, red, white, blue, red, white, blue, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 0 0 5px red,
+                 0 0 10px red,
+                 0 0 20px red,
+                 0 0 30px red,
+                 0 0 40px red,
+                 0 0 50px red,
+                 0 0 60px red,
+                 0 0 80px red,
+                 0 0 90px red,
+                 0 0 100px red;
+    color: white;
+}
+
+.botoncito {
+    padding-left: 860px;
+    top: 50px;
+    position: absolute;
+    
+}
+
+.botoncito a {
+    position: relative;
+    width: 300px;
+    height: 75px;
+    margin: 0px 0px 0px 20px;
+    font-size: 42px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 1s;
+    font-family: 'Birthstone', cursive;
+    font-weight: 800;
+}
+
+.botoncito a span {
+    position: relative;
+    z-index: 1;
+}
+
+.botoncito a:hover {
+    color: #fff;
+}
+
+.botoncito a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: url(img/btn-bg1.png);
+    background-size: cover;
+    transform-origin: left;
+    transition: 0.5s;
+
+}
+
+#academia:hover:before {
+    width: 100%;
+}
+
+#academia > span {
+    position: relative;
+    z-index: 1;
+}
+
+.nav-item > .seccion {
+    color: white;
+    padding-left: 3px;
+    margin: 0;   
+}
+
+
+a{
+    animation: flicker 7s linear infinite;
+    text-shadow: 0 0 5px white,
+                 0 0 10px white;
+    font-size: 1cm;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+
+.domicilio {
+    color: #8a7e7e;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1cm;
+    text-align: right;
+    align-items: flex-end;
+    top: 0;
+    margin-right: 0px;
+    bottom: 0;
+    padding-bottom: 1cm;
+    
+}
+
+ul {
+  list-style-type: none;
+}
+
+.col-lg-1 {
+    padding-bottom: 50px;
+}
+
+.col-lg-1 > ul >li {
+    padding: 20px;
+}
+
+
+.contacto {
+    margin: 0;
+    padding: 0;
+}
+
+.pie {
+    margin-top: 100px;
+}
+
+.pie a {
+  animation: none;
+}
+
+p > text-center {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* estilos de página galeria */
+
+.fotos > img {
+    width: 500px;
+    height: 500px;
+    padding-top: 30px;
+    
+}
+
+p {
+    color: #8a7e7e;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 0.6cm;
+}
+
+/* estilos para pagina academia */
+
+
+.container-fluid .row .card{
+    width: 330px;
+    height: 440px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 5px;
+    text-align: center;
+    transition: all 0.25s;
+    margin-left: 150px;
+    background: none;
+    padding-top: 20px;
+    margin-top: 100px;            
+}
+
+.container-fluid .row .card:hover{
+    transform: translateY(-25px);
+    /* box-shadow: 0 0 5px white,
+                 0 0 10px white,
+                 0 0 20px white,
+                 0 0 30px blue,
+                 0 0 40px red,
+                 0 0 50px red,
+                 0 0 60px red,
+                 0 0 70px red; */
+
+}
+
+.container-fluid .row .card img:hover{
+  
+  box-shadow: 0 0 5px red,
+               0 0 10px red,
+               0 0 20px red;
+               
+}
+
+.container-fluid .row .card img{
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 5px white,
+                 0 0 10px white,
+                 0 0 20px red;
+                 
+}
+
+
+
+.container-fluid .card h4{
+    font-weight: 600;
+    font-size: 0.8cm;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    padding-top: 5px;
+    text-shadow: 0 0 10px blue,
+                    0 0 20px blue;
+}
+
+.container-fluid .card p{
+    padding: 0 1rem;
+    font-size: 0.4;
+    font-weight: 300;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    padding-top: 4px;
+    text-shadow: 0 0 10px red,
+                    0 0 20px red;
+}
+
+
+/* galeria */
+
+.titugal {
+  font-size: 2cm;
+  font-weight: 400;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 0 0 5px blue,
+               0 0 10px blue,
+               0 0 20px blue,
+               0 0 30px white,
+               0 0 40px white,
+               0 0 50px white;
+               
+  color: white;
+  margin-bottom: -10px;
+  padding-top: 100px;
+  padding-bottom: -10px;
+}
+
+.galeria {
+  margin: 80px 280px 0px 280px;
+  padding: 0px 30px 0px 30px;
+}
+
+.galeria img {
+  box-shadow: 8px 8px 8px -1px white;
+  border-radius: 15px;
+  margin: 8px 8px 8px 8px;
+  width: 400px;
+  height: 400px;
+}
+
+.materialbox-caption {
+  bottom: 30px;
+  right: 0;
+  width: 40%;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+  background: black;
+  box-shadow: 5px 5px white;
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+}
+
+/* nosotros */
+
+#luchoCarmona2 {
+    width: 500px;
+    height: 500px;
+    animation: flicker 12s linear infinite;
+    box-shadow: 0 0 5px white,
+                 0 0 10px white,
+                 0 0 20px red,
+                 0 0 40px red;
+}
+
+h2 {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  padding: 20px 250px 0px 150px;
+  font-size: 1cm;
+}
+
+
+
+.container__cards{
+  max-width: 300px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cards{
+  width: 400px;
+  margin: 5px;
+  transition: all 300ms;
+  height: 600px;
+}
+
+.cards:hover{
+  width: 450px;
+}
+
+.cards .cover{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cards .cover img{
+  width: 400px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 20px;
+  z-index: 1;
+  filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.5));
+  transition: all 400ms;
+  height: 400px;
+}
+
+.cards:hover .cover img{
+  top: -10px;
+  filter: none;
+  /* right: 10px; */
+  width: 480px;
+  height: 500px;
+  
+}
+
+.cards .img__back{
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  background-size: cover;
+  border-radius: 20px;
+  transition: all 300ms;
+}
+
+
+
+.cards:hover .img__back{
+  bottom: -20px;
+}
+
+.cards .description{
+  background: white;
+  margin-top: -10px;
+  padding: 20px;
+  border-radius: 0px 0px 20px 20px;
+  transition: all 300ms;
+}
+
+.cards:hover .description{
+  padding: 30px;
+  bottom: 15px;
+}
+
+.card .description h2{
+  margin-top: 10px;
+}
+
+.card .description p{
+  margin-top: 10px;
+}
+
+.card .description input{
+  padding: 10px 40px;
+  margin-top: 20px;
+  border: none;
+  background: #A6359D;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 300ms;
+}
+
+.card .description input:hover{
+  background: #83277b;
+}
+
+
+@media(max-width:576px){
+
+    
+
+    .redes {
+      font-size: 40px;
+      padding-left: 4px;
+      padding-bottom: 8px;
+      margin-top: 5px;
+    }
+    
+    
+    .titugal {
+      font-size: 1.3cm;
+      margin-bottom: 3px; 
+      margin-top: 5px;
+      
+    }
+
+    .nav {
+      
+      display: flex;
+      margin: 0%;
+      padding: 0%;
+    }
+
+    #cintita {
+      display: none;
+    }
+
+    #inicio  {
+      margin: 0px;
+      padding: 0px 8px;
+    }
+
+    #academia  {
+      margin: 0px;
+      padding: 0px 8px;
+    }
+
+     #nosotros {
+      margin: 0px;
+      padding: 0px 8px;
+    }
+
+    #galeria {
+      margin: 0px;
+      padding: 0px 8px;
+    }
+
+    .galeria {
+      margin: 80px 0px 0px 0px;
+    }
+
+
+    .ratio {
+      margin: 0px 0px 15px 0px;
+    }
+
+  
+    .ratio > video{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 319px;
+        height: 340px;
+        
+  
+        padding: 0px 0px 0px 0px;
+    }
+
+    a{
+        color: blue;
+        font-size: 0.6cm;
+        font-family: 'Bebas Neue', cursive;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .botoncito {
+        padding: 100px 0px 0px 50px ;
+        position: absolute;
+        font-size: 0.4cm;
+
+    }
+
+    .botoncito > a {
+        font-size: 1cm;
+    }
+
+    
+    .nav-link > img {
+        padding-right: 10px;
+        height: 80px ;
+    }
+
+    
+
+    .logo > img {
+        width: 320px;
+        height: 260px;
+        position: static;
+        padding-top: 0px;
+        padding-bottom: 2px;
+        z-index: 2;
+        margin: 0;
+    }
+
+    
+
+   
+
+    ul {
+        padding: 2px;
+        margin: 0px ;
+    }
+
+    .pie {
+        margin-top: 190px;
+    }
+
+    .domicilio {
+        padding: 0 0 15px 0;
+        font-size: 1cm;
+        align-items: center;
+    }
+
+    .redes {
+        padding-left: 0px;
+    }
+
+    .promo {
+        padding-top: 0;
+        padding-bottom: 10px;
+        
+    }
+
+    .neon {
+        font-size: 1.6cm;
+        padding-left: 32px;
+        margin: 0px;
+        position: static;
+        justify-content: justify;
+        /* z-index: 2; */
+
+    }
+    
+    .neon2 {
+        font-size: 1.1cm;
+        padding-left: 29px;
+        position: static;
+        justify-content: justify;
+        /* z-index: 2; */
+        
+    }
+
+    h3 {
+        font-size: 0.9;
+    }
+
+    .redes > ul > li {
+        padding-left: 0px;
+        padding-top: 0;
+    }
+
+    .fotos > img {
+        width: 350px;
+        height: 350px;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .navbar {
+        width: 380px;
+    }
+
+    .fotos {
+        padding: 0;
+        margin: 0;
+    }
+
+    #lucho {
+        width: 370px;
+        height: 370px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    h1 {
+        font-size: 1cm;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container-fluid .row .card {
+        padding-top: 10px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .materialboxed {
+      padding: 0;
+      margin: 0;
+    }
+
+    .galeria img {
+      width: 260px;
+      height: 260px;
+    }
+
+    h2 {
+      padding: 0px 0px 10px 0px;
+    }
+
+    #luchoCarmona2 {
+      width: 300px;
+      height: 300px;
+    }
+
+    .navtop {
+      height: 110px;
+    }
+
+    h3 {
+      font-size: 1.5cm;
+    }
+   
+}
